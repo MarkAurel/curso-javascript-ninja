@@ -82,7 +82,7 @@ cada um. A frase deverá ser no formato:
 - "[NOME COMPLETO] agora tem [NOVA IDADE] anos."
 */
 console.log( '\nNova idade das pessoas:' );
-
+ 
 console.log( Mark.getFullName(), 'agora tem', Mark.addAge(3).getAge(), 'anos.' );
 console.log( Fernanda.getFullName(), 'agora tem', Fernanda.addAge(5).getAge(), 'anos.' );
 console.log( Pedro.getFullName(), 'agora tem', Pedro.addAge(-2).getAge(), 'anos.' );
